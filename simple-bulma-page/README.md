@@ -1,29 +1,11 @@
-# simple-bulma-page
+# Simple Bulma Page
 
-## Project setup
-```
-npm install
-```
+## About:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+This is a simple page made with Buefy and Vue3.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Screenshots:
 
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![mobile](/simple-bulma-page/src/assets/bulma-logo.png)
+![tablet]()
+![desktop]()

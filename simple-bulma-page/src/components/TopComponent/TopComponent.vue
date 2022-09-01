@@ -1,12 +1,12 @@
 <template>
-  <section class="hero is-fullheight has-background-black">
+  <section class="hero has-background-white">
     <div class="hero-body">
       <div class="container">
         <figure class="image center">
           <img
             src="@/assets/bulma-logo.png"
             alt="bulma logo"
-            style="max-width: 512px"
+            style="max-width: 150px"
           />
         </figure>
       </div>
