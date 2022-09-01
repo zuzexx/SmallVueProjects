@@ -1,9 +1,8 @@
 <template>
-  <h1>this is a simple page</h1>
+  <div>TopComponent</div>
 </template>
-
 <script>
 export default {
-  name: "App",
+  name: "TopComponent",
 };
 </script>

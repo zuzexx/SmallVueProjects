@@ -1,4 +1,4 @@
-# small-vue-projects
+# simple-bulma-page
 
 ## Project setup
 ```
