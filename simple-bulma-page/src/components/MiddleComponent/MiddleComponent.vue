@@ -46,8 +46,8 @@
                 <h1 class="title is-size-5">...Classes?</h1>
                 <p class="is-size-6">
                   Instead of writing our CSS per-element, we can use predefined
-                  classes. With enough classes, we can describe our website
-                  design using semantics.
+                  classes. With enough classes, we can describe our
+                  websitedesign using semantics.
                 </p>
               </div>
             </div>
