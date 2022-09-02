@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="main-chat-section">
     <div class="background"><Chatting /></div>
   </section>
 </template>
@@ -12,7 +12,7 @@ export default {
 };
 </script>
 <style scoped>
-section {
+.main-chat-section {
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -27,5 +27,22 @@ section {
   width: 80vw;
   height: auto;
   padding: 0.5rem;
+}
+@media only screen and (min-width: 1000px) {
+  .main-chat-section {
+    width: 50vw;
+  }
+  .background {
+    width: 40vw;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .main-chat-section {
+    max-width: 550px;
+    padding: 2rem;
+  }
+  .background {
+    max-width: 550px;
+  }
 }
 </style>

@@ -84,7 +84,7 @@ export default {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  width: 55vw;
+  width: 75vw;
   color: var(--background-color);
   font-family: var(--text-chat);
   font-size: 0.7rem;
@@ -103,5 +103,26 @@ svg {
 }
 p {
   margin-top: 1rem;
+}
+@media only screen and (min-width: 1000px) {
+  .right {
+    width: 37vw;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  svg {
+    height: 55px;
+  }
+  .bubble-right {
+    width: 300px;
+    height: 75px;
+  }
+  p {
+    font-size: 1.1rem;
+    margin-top: 1.7rem;
+  }
+  .right {
+    width: 500px;
+  }
 }
 </style>

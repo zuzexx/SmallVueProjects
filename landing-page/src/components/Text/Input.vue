@@ -21,7 +21,6 @@ input {
   color: var(--background-color);
   width: 40vw;
   outline: none;
-  max-width: 500px;
 }
 form {
   width: 80vw;
@@ -31,5 +30,23 @@ form {
 }
 .but {
   margin-left: -1rem;
+}
+@media only screen and (min-width: 1000px) {
+  form {
+    width: 40vw;
+    justify-content: flex-start;
+  }
+  input {
+    width: 30vw;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  input {
+    padding: 20px;
+    max-width: 550px;
+  }
+  form {
+    max-width: 700px;
+  }
 }
 </style>

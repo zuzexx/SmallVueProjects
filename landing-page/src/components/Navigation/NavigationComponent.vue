@@ -21,6 +21,9 @@ export default {
   width: 100vw;
   height: 4rem;
   font-size: 1rem;
+  top: 0;
+  left: 0;
+  position: fixed;
 }
 .header-div {
   height: 2rem;

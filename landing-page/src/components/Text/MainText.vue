@@ -34,4 +34,33 @@ h1 {
   font-weight: 700;
   font-size: 2.5rem;
 }
+@media only screen and (min-width: 1000px) {
+  p {
+    width: 40vw;
+    text-align: left;
+  }
+  .text-section {
+    width: 40vw;
+    align-items: flex-start;
+    margin-top: -7rem;
+  }
+  h1 {
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  p {
+    font-weight: 400;
+    font-size: 1.3rem;
+    width: 730px;
+  }
+  h1 {
+    font-weight: 900;
+    font-size: 4rem;
+    margin-top: -7rem;
+  }
+  .text-section {
+    padding: 2rem;
+  }
+}
 </style>

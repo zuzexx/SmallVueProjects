@@ -1,7 +1,7 @@
 <template>
   <main>
     <NavigationComponent />
-    <section><MainText /><MainChatComponent /></section>
+    <section class="main-section"><MainText /><MainChatComponent /></section>
   </main>
 </template>
 
@@ -26,5 +26,18 @@ main {
   overflow-y: auto;
   overflow-x: hidden;
   font-family: var(--text-main);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (min-width: 1000px) {
+  .main-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 2rem;
+  }
 }
 </style>

@@ -2,7 +2,7 @@
   --text-chat: "Open Sans", sans-serif;
   --text-main: "Source Sans Pro", sans-serif;
 }
-/*
+
 @media screen and (prefers-color-scheme: dark) {
   body {
     --accent-color: #b3e8e5;
@@ -24,13 +24,4 @@
     --svg-two: #ffe0ac;
     --svg-three: #f8e1f4;
   }
-}*/
-body {
-  --accent-color: #fa9191;
-  --background-color: #fff;
-  --text-color: #404b69;
-  --button-color: #bc658d;
-  --svg-one: #d87f5c;
-  --svg-two: #e2c28a;
-  --svg-three: #d380c5;
 }
