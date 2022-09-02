@@ -23,7 +23,8 @@ main {
   width: 100vw;
   height: 100vh;
   margin: -8px;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
   font-family: var(--text-main);
 }
 </style>
