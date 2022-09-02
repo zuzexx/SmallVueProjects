@@ -17,8 +17,10 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin-top: 2rem;
   justify-content: center;
+  border: 1px solid red;
 }
 .background {
   background-color: var(--svg-one);

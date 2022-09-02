@@ -78,7 +78,7 @@ export default {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  width: 80vw;
+  width: 95vw;
   color: var(--background-color);
   font-family: var(--text-chat);
   font-size: 0.7rem;
