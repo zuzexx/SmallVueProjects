@@ -21,7 +21,7 @@ button {
   text-transform: uppercase;
   font-size: 0.7 rem;
   font-family: var(--text-main);
-  border: none;
+
   border-radius: 0.25rem;
 }
 @media only screen and (min-width: 1200px) {
