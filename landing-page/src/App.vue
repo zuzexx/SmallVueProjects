@@ -1,13 +1,17 @@
 <template>
-  <main><NavigationComponent /></main>
+  <main>
+    <NavigationComponent />
+    <section><MainText /></section>
+  </main>
 </template>
 
 <script>
 import NavigationComponent from "./components/Navigation/NavigationComponent.vue";
+import MainText from "./components/Text/MainText.vue";
 
 export default {
   name: "App",
-  components: { NavigationComponent },
+  components: { NavigationComponent, MainText },
 };
 </script>
 <style scoped>

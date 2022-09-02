@@ -3,22 +3,25 @@
   --text-main: "Source Sans Pro", sans-serif;
 }
 
-body .dark {
-  --accent-color: #b3e8e5;
-  --background-color: #283149;
-  --text-color: #dbedf3;
-  --button-color: #00818a;
-  --svg-one: #646fd4;
-  --svg-two: #9ba3eb;
-  --svg-three: #dbdffd;
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    --accent-color: #b3e8e5;
+    --background-color: #283149;
+    --text-color: #dbedf3;
+    --button-color: #aaf8a0;
+    --svg-one: #646fd4;
+    --svg-two: #9ba3eb;
+    --svg-three: #dbdffd;
+  }
 }
-
-body {
-  --accent-color: #fa9191;
-  --background-color: #fff;
-  --text-color: #404b69;
-  --button-color: #bc658d;
-  --svg-one: #ffe8df;
-  --svg-two: #ffe0ac;
-  --svg-three: #f8e1f4;
+@media screen and (prefers-color-scheme: light) {
+  body {
+    --accent-color: #fa9191;
+    --background-color: #fff;
+    --text-color: #404b69;
+    --button-color: #bc658d;
+    --svg-one: #ffe8df;
+    --svg-two: #ffe0ac;
+    --svg-three: #f8e1f4;
+  }
 }

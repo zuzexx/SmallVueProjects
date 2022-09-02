@@ -16,7 +16,7 @@ export default {
   components: { Buttons },
 };
 </script>
-<style scoped>
+<style>
 .navigation {
   width: 100vw;
   height: 4rem;
