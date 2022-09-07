@@ -1,9 +1,11 @@
 <template>
-  <section><h1>this is calculator</h1></section>
+  <CalculatorComponent />
 </template>
 
 <script>
+import CalculatorComponent from "./components/CalculatorComponent.vue";
 export default {
   name: "App",
+  components: { CalculatorComponent },
 };
 </script>
