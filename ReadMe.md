@@ -9,3 +9,6 @@ This repository is currently in progress!
 2. project: Simple landing page using CSS and Vue3
    <Img src="landing-page/src/assets/desktop.JPG" style="width:94%">
    <Img src="landing-page/src/assets/desktop-light.JPG" style="width:94%">
+
+3. project: simple calculator using CSS and Vue3
+   <Img src="calculator/src/assets/calculator.jpg" style="width:94%">

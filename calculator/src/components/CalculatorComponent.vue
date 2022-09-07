@@ -1,13 +1,13 @@
 <template>
   <main>
     <section>
-      <div class="calc-result">{{ calculatorValue }}</div>
+      <div class="calc-result">{{ calculatorValue || 0 }}</div>
       <div class="buttons-grid">
         <div class="buttons" v-for="button in calculatorButtons" :key="button">
           <div
             class="button-style"
             :class="{
-              'bg-operators': ['C', '*', '/', '-', '+', '%', '='].includes(
+              'bg-operators': ['C', '*', '/', '-', '+', '%', '=', '.'].includes(
                 button
               ),
               'zero-button': [0, '='].includes(button),
@@ -63,6 +63,7 @@ export default {
       if (button === "%") {
         this.calculatorValue = this.calculatorValue / 100 + "";
       }
+
       if (["/", "+", "*", "-"].includes(button)) {
         this.operator = button;
         this.previousValue = this.calculatorValue;
@@ -82,32 +83,34 @@ export default {
 <style scoped>
 main {
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: "Open Sans", sans-serif;
+  background-color: cornsilk;
+  color: slategray;
+  overflow: none;
 }
 section {
-  border: 2px solid red;
   border-radius: 0.5rem;
-
+  background-color: white;
   width: 500px;
   margin: 3rem, auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 .calc-result {
   padding: 1.2rem;
   width: 450px;
   border-radius: 0.5rem;
   text-align: right;
-  border: 2px solid blue;
+  background-color: azure;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 .buttons-grid {
   display: flex;
@@ -123,7 +126,7 @@ section {
   width: 7.3rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  background-color: pink;
+  background-color: linen;
   border-radius: 0.5rem;
 }
 .button-style:hover {
@@ -132,7 +135,7 @@ section {
   transition: 0.7s;
 }
 .bg-operators {
-  background-color: orange;
+  background-color: lavenderblush;
 }
 
 .zero-button {
