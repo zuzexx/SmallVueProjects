@@ -11,4 +11,4 @@ This repository is currently in progress!
    <Img src="landing-page/src/assets/desktop-light.JPG" style="width:94%">
 
 3. project: simple calculator using CSS and Vue3
-   <Img src="calculator/src/assets/calculator.jpg" style="width:94%">
+   <Img src="calculator/src/assets/Calculator.JPG" style="width:94%">
