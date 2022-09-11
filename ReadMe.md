@@ -19,6 +19,7 @@ This is a repository that holds all my smaller vue projects. The point of this r
    <Img src="pricing-grids/src/assets/image.JPG" style="width:94%">
 
 6. project: product modal
+   <Img src="product-modal/src/assets/image.JPG" style="width:94%">
 
 7. project image gallery
 
